@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { TweetDatabase } from "../database/index.js";
 import type { Tweet } from "../database/schema.js";
 import { EmbeddingService } from "../services/embedding.js";
+import { getTweetUrl } from "../utils/tweet-utils.js";
 
 interface SearchProps {
   query: string;
@@ -110,6 +111,11 @@ export const Search = ({ query, mode, limit = 20 }: SearchProps) => {
           <Box>
             <Text color="gray">
               ❤️ {tweet.favorite_count} 🔁 {tweet.retweet_count}
+            </Text>
+          </Box>
+          <Box>
+            <Text color="blue" underline>
+              {getTweetUrl(tweet.id)}
             </Text>
           </Box>
         </Box>
