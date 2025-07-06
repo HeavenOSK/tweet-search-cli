@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
-import React from "react";
 import { render } from "ink";
+import React from "react";
 import { App } from "./components/App.js";
 
 console.clear();
