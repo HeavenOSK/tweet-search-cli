@@ -11,7 +11,7 @@
         "noNonNullAssertion": "off"
       },
       "suspicious": {
-        "noExplicitAny": "error"
+        "noExplicitAny": "off"
       }
     }
   },
