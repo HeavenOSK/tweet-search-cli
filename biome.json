@@ -31,6 +31,14 @@
     }
   },
   "files": {
-    "ignore": ["node_modules", "dist", "coverage", ".next", ".turbo", "*.log"]
+    "ignore": [
+      "node_modules",
+      "dist",
+      "coverage",
+      ".next",
+      ".turbo",
+      "*.log",
+      "target"
+    ]
   }
 }
