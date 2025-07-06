@@ -9,7 +9,10 @@
   "scripts": {
     "start": "tsx src/index.tsx",
     "dev": "tsx watch src/index.tsx",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write ."
   },
   "keywords": [
     "cli",
@@ -27,6 +30,7 @@
     "react": "^18.3.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@types/node": "^24.0.7",
     "@types/react": "^18.3.3",
     "tsx": "^4.19.2",
