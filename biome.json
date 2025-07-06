@@ -28,7 +28,8 @@
       "quoteStyle": "double",
       "semicolons": "always",
       "trailingCommas": "all"
-    }
+    },
+    "globals": ["React"]
   },
   "files": {
     "ignore": ["node_modules", "dist", "coverage", ".next", ".turbo", "*.log"]
