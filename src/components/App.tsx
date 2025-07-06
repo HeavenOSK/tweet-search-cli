@@ -1,7 +1,7 @@
 import { Box, Text } from "ink";
-import React from "react";
+import type { FC } from "react";
 
-export const App: React.FC = () => {
+export const App: FC = () => {
   return (
     <Box flexDirection="column">
       <Text color="cyan" bold>
