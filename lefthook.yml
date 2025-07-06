@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: false
+  commands:
+    check-fix:
+      run: npm run check:fix
+    build:
+      run: npm run build
